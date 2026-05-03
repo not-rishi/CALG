@@ -1,0 +1,274 @@
+[
+  {
+    "id": "ds",
+    "name": "Data Structures",
+    "credits": 4,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 20,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 5,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "lab",
+        "name": "LAB",
+        "count": 1,
+        "maxMarks": 25,
+        "weightage": 25,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "dbm",
+    "name": "DataBase Management System",
+    "credits": 4,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 20,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 5,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "lab",
+        "name": "LAB",
+        "count": 1,
+        "maxMarks": 25,
+        "weightage": 25,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "ooj",
+    "name": "Object Oriented Java",
+    "credits": 4,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 20,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 5,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "lab",
+        "name": "LAB",
+        "count": 1,
+        "maxMarks": 25,
+        "weightage": 25,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "sdm",
+    "name": "Discrete Mathematics",
+    "credits": 3,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 40,
+        "combineMethod": "average"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 10,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "coa",
+    "name": "Computer Organization & Architecture",
+    "credits": 3,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 40,
+        "combineMethod": "average"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 10,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "ld",
+    "name": "Logic Design",
+    "credits": 2,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 40,
+        "combineMethod": "average"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 10,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "usp",
+    "name": "Unix Shell Programming",
+    "credits": 1,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 1,
+        "maxMarks": 40,
+        "weightage": 40,
+        "combineMethod": "average"
+      },
+      {
+        "id": "aat",
+        "name": "Certificate",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 10,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "fwd",
+    "name": "Full Stack Web Development",
+    "credits": 1,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 1,
+        "maxMarks": 40,
+        "weightage": 40,
+        "combineMethod": "average"
+      },
+      {
+        "id": "aat",
+        "name": "Certificate",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 10,
+        "combineMethod": "sum"
+      }
+    ]
+  }
+]

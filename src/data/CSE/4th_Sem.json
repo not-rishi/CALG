@@ -1,0 +1,260 @@
+[
+  {
+    "id": "OS",
+    "name": "Operating System",
+    "credits": 4,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 20,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 5,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "lab",
+        "name": "LAB",
+        "count": 1,
+        "maxMarks": 25,
+        "weightage": 25,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "ADA",
+    "name": "Analysis & Design of Algorithm",
+    "credits": 4,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 20,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 5,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "lab",
+        "name": "LAB",
+        "count": 1,
+        "maxMarks": 25,
+        "weightage": 25,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+
+  {
+    "id": "TFC",
+    "name": "Theorotical Foundation of Computing",
+    "credits": 3,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 40,
+        "combineMethod": "average"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 10,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "SE",
+    "name": "Software Engineering",
+    "credits": 3,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 40,
+        "combineMethod": "average"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 10,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "CRP",
+    "name": "Cryptography",
+    "credits": 3,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 40,
+        "combineMethod": "average"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 10,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+
+  {
+    "id": "LAO",
+    "name": "Linerar Algebra & Optimization",
+    "credits": 3,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 2,
+        "maxMarks": 40,
+        "weightage": 40,
+        "combineMethod": "average"
+      },
+      {
+        "id": "aat",
+        "name": "AAT & Quiz",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 10,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "mad",
+    "name": "Mobile Application Development",
+    "credits": 1,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 50,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "cie",
+        "name": "CIE",
+        "count": 1,
+        "maxMarks": 40,
+        "weightage": 40,
+        "combineMethod": "average"
+      },
+      {
+        "id": "aat",
+        "name": "Certificate",
+        "count": 1,
+        "maxMarks": 10,
+        "weightage": 10,
+        "combineMethod": "sum"
+      }
+    ]
+  },
+  {
+    "id": "NPT",
+    "name": "NPTEL Course",
+    "credits": 1,
+    "assessments": [
+      {
+        "id": "see",
+        "name": "SEE",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 75,
+        "combineMethod": "sum"
+      },
+      {
+        "id": "ass",
+        "name": "Assignment",
+        "count": 1,
+        "maxMarks": 100,
+        "weightage": 25,
+        "combineMethod": "sum"
+      }
+    ]
+  }
+]
