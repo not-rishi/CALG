@@ -1,5 +1,4 @@
 name: Deploy Vite to GitHub Pages
-
 on:
   push:
     branches:
@@ -22,6 +21,9 @@ jobs:
 
       - run: npm install
       - run: npm run build
+      
+      # ADD THIS STEP: This ensures GitHub knows your custom domain
+      - run: echo "calg.notrishi.tech" > ./dist/CNAME
 
       - uses: actions/upload-pages-artifact@v3
         with:
