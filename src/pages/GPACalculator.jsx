@@ -10,6 +10,9 @@ import SubjectList from "../components/SubjectList";
 import Visualizer from "../components/Visualizer";
 import "./GPACalculator.css";
 
+import logo from "../assets/logo.png";
+import logoGif from "../assets/logo.gif";
+
 export default function GPACalculator() {
   const {
     step,
@@ -67,7 +70,7 @@ export default function GPACalculator() {
             <div className="ui-content-wrapper">
               <nav className="top-nav">
                 <div className="nav-branding">
-                  <img src="/logo.png" alt="logo" className="nav-logo" />
+                  <img src={logo} alt="logo" className="nav-logo" />
                   <div className="brand-text">CALG</div>
                 </div>
 
@@ -115,7 +118,7 @@ export default function GPACalculator() {
                     ) : (
                       <div className="idle-state">
                         <div className="logo-shallow">
-                          <img src="../../public/logo.gif"></img>
+                          <img src={logoGif} alt = "logo animation"></img>
                         </div>
                         <h3>Ready to Calculate</h3>
                         <p>Enter your marks and hit the button below.</p>
