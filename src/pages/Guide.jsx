@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import DotGridBackground from "../components/background/DotGrid";
 import LoadingScreen from "./LoadingScreen";
 import "./GPACalculator.css";
@@ -11,6 +12,8 @@ import sliderimg from "../assets/optimism-slider.png";
 import runimg from "../assets/run-calculation.png"
 
 export default function Guide() {
+  const navigate = useNavigate();
+  
   const [isLoading, setIsLoading] = useState(true);
   const [isFadingOut, setIsFadingOut] = useState(false);
 
@@ -54,7 +57,7 @@ export default function Guide() {
             <div className="nav-actions">
               <button
                 className="nav-btn"
-                onClick={() => (window.location.href = "/")}
+                 onClick={() => navigate("/")}
                 aria-label="Back to Calculator"
               >
                 RETURN TO APP
