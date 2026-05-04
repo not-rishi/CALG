@@ -6,7 +6,7 @@ import Guide from "./pages/Guide";
 export default function App() {
   return (
     <AppProvider>
-      <Router basename="/CALG">
+      <Router>
         <Routes>
           <Route path="/" element={<GPACalculator />} />
           <Route path="/guide" element={<Guide />} />
