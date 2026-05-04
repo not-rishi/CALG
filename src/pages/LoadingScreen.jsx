@@ -1,5 +1,7 @@
 import DotGridBackground from "../components/background/DotGrid";
 import "./LoadingScreen.css";
+import logo from "../assets/logo.png";
+import logoGif from "../assets/logo.gif";
 
 export default function LoadingScreen({ isFadingOut }) {
   const shades = [
@@ -14,7 +16,7 @@ export default function LoadingScreen({ isFadingOut }) {
   return (
     <div className={`loading-wrapper ${isFadingOut ? "fade-out" : "fade-in"}`}>
       <div className="branding">
-        <img src="/logo.png" alt="Loading..." />
+        <img src={logo} alt="Loading..." />
         <h3>GPA Calculator</h3>
       </div>
 
