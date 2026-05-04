@@ -6,6 +6,9 @@ import "./Guide.css";
 
 import logo from "../assets/logo.png";
 import logoGif from "../assets/logo.gif";
+import graphimg from "../assets/graph-colour.png";
+import sliderimg from "../assets/optimism-slider.png";
+import runimg from "../assets/run-calculation.png"
 
 export default function Guide() {
   const [isLoading, setIsLoading] = useState(true);
@@ -75,7 +78,7 @@ export default function Guide() {
                   <div className="bento-image-wrapper">
                     <img
                       className="bento-image"
-                      src="src\assets\optimism-slider.png"
+                      src={sliderimg}
                       alt="error"
                     />
                     {/* <div className="placeholder-img retro-bg-1"></div> */}
@@ -113,7 +116,7 @@ export default function Guide() {
                   <div className="bento-image-wrapper">
                     <img
                       className="bento-image"
-                      src="src\assets\run-calculation.png"
+                      src={runimg}
                       alt="error"
                     />
                   </div>
@@ -131,7 +134,7 @@ export default function Guide() {
                   <div className="bento-image-wrapper">
                     <img
                       className="bento-image"
-                      src="src\assets\graph-colour.png"
+                      src={graphimg}
                       alt="error"
                     />
                   </div>
