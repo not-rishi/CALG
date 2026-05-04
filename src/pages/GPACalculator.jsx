@@ -14,9 +14,10 @@ import "./GPACalculator.css";
 import logo from "../assets/logo.png";
 import logoGif from "../assets/logo.gif";
 
-const navigate = useNavigate();
-
 export default function GPACalculator() {
+
+  const navigate = useNavigate();
+  
   const {
     step,
     setStep,
