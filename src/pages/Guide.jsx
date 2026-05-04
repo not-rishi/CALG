@@ -4,6 +4,9 @@ import LoadingScreen from "./LoadingScreen";
 import "./GPACalculator.css";
 import "./Guide.css";
 
+import logo from "../assets/logo.png";
+import logoGif from "../assets/logo.gif";
+
 export default function Guide() {
   const [isLoading, setIsLoading] = useState(true);
   const [isFadingOut, setIsFadingOut] = useState(false);
@@ -35,7 +38,7 @@ export default function Guide() {
           {/* Retained Navigation Bar */}
           <nav className="top-nav">
             <div className="nav-branding">
-              <img src="/logo.png" alt="logo" className="nav-logo" />
+              <img src={logo} alt="logo" className="nav-logo" />
               <div className="brand-text">CALG</div>
             </div>
 
