@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useApp } from "../context/AppContext";
+import { useNavigate } from "react-router-dom";
 import DotGridBackground from "../components/background/DotGrid";
 import LoadingScreen from "./LoadingScreen";
 import BranchSelection from "./BranchSelection";
@@ -12,6 +13,8 @@ import "./GPACalculator.css";
 
 import logo from "../assets/logo.png";
 import logoGif from "../assets/logo.gif";
+
+const navigate = useNavigate();
 
 export default function GPACalculator() {
   const {
@@ -92,7 +95,7 @@ export default function GPACalculator() {
 
                   <button
                     className="nav-btn nav-btn--secondary"
-                    onClick={() => (window.location.href = "/Guide")}
+                    onClick={() => navigate("/guide")}
                     aria-label="Guide"
                   >
                     GUIDE
