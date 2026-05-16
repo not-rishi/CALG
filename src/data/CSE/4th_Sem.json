@@ -243,16 +243,16 @@
         "id": "see",
         "name": "SEE",
         "count": 1,
-        "maxMarks": 100,
-        "weightage": 75,
+        "maxMarks": 75,
+        "weightage": 50,
         "combineMethod": "sum"
       },
       {
         "id": "ass",
         "name": "Assignment",
         "count": 1,
-        "maxMarks": 100,
-        "weightage": 25,
+        "maxMarks": 25,
+        "weightage": 50,
         "combineMethod": "sum"
       }
     ]
